@@ -26,6 +26,8 @@ public class Principal {
         personaTres.edad=18;
         personaTres.caminar();
 
+        Persona personaCuatro = new Persona();
+        personaCuatro.nombre="Nocolas";
 
     }
 
