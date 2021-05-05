@@ -2,32 +2,22 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        Persona personaUno;
-        personaUno = new Persona();
-        personaUno.nombre="Marco";
-        personaUno.apellido="Guaman";
-        personaUno.edad = 18;
-        personaUno.caminar();
-        personaUno.ensenar();
+//        Persona personaUno;
+//        personaUno = new Persona();
+//        personaUno.setNombre("Marco");
+//        personaUno.setApellido("Guaman");
+//        personaUno.setEdad(38);
+//        String nombreUno = personaUno.getNombre();
+//        System.out.println("El nombre de esta instancia es "+personaUno.getNombre());
+//        System.out.println(personaUno.getApellido()+" "+personaUno.getEdad());
+//        System.out.println(personaUno.getApellido());
+//        System.out.println(personaUno.getEdad());
 
-        Credito credito = new Credito();
-        credito.fecha= "03/05/2021";
-        credito.persona=personaUno;
-
-        Persona personaDos =new Persona();
-        personaDos.nombre="Alejandro";
-        personaDos.apellido="Roldan";
-        personaDos.edad=18;
-        personaDos.caminar();
-
-        Persona personaTres = new Persona();
-        personaTres.nombre="Andrea";
-        personaTres.apellido="Loja";
-        personaTres.edad=18;
-        personaTres.caminar();
-
-        Persona personaCuatro = new Persona();
-        personaCuatro.nombre="Nocolas";
+          Persona personaNueva = new Persona("Marco","Guaman",25);
+        System.out.println("El nombre de esta instancia es "+personaNueva.getNombre());
+        System.out.println(personaNueva.getApellido()+" "+personaNueva.getEdad());
+        System.out.println(personaNueva.getApellido());
+        System.out.println(personaNueva.getEdad());
 
     }
 
