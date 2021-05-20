@@ -1,0 +1,14 @@
+.root{
+	-fx-background-color : #2ecc71;
+	}
+.button {
+	-fx-background-color : blue;
+}
+
+#lbMensaje {
+	-fx-text-fill: red;
+}
+
+#btnUno {
+	-fx-background-color : yellow;
+}
