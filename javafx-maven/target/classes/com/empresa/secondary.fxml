@@ -17,7 +17,7 @@
           </padding>
       </VBox>
    </center>
-   <left>
+   <right>
         <Button fx:id="secondaryButton" onAction="#switchToPrimary" text="cerrar sesion" BorderPane.alignment="CENTER" />
-   </left>
+   </right>
 </BorderPane>
