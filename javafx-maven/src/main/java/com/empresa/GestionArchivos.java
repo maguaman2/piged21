@@ -1,4 +1,4 @@
-package com.empresa.archivos;
+package com.empresa;
 
 import java.io.*;
 import java.util.ArrayList;

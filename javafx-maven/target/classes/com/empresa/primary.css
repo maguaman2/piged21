@@ -1,14 +1,17 @@
 .root{
-	-fx-background-color : #2ecc71;
+	-fx-background-color: #A967F0;
 	}
 .button {
-	-fx-background-color : blue;
+	-fx-background-color: #4F3070;
+    -fx-text-fill: #D0B1F2;
 }
-
+.button:hover {
+	-fx-background-color: #8551BD;
+}
 #lbMensaje {
 	-fx-text-fill: red;
 }
 
 #btnUno {
-	-fx-background-color : yellow;
+	-fx-background-color: #56B3F0;
 }
